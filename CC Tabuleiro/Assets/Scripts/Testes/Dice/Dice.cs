@@ -24,8 +24,6 @@ namespace joao
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                DiceText.text.text = ("0");
-
                 float dirx = Random.Range(0, 500);
                 float diry = Random.Range(0, 500);
                 float dirz = Random.Range(0, 500);

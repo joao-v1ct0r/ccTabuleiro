@@ -21,22 +21,22 @@ namespace joao
                 switch (col.gameObject.name)
                 {
                     case "1":
-                        DiceText.number = "1";
+                        PlayerMove.pecasIndex += 1;
                         break;
                     case "2":
-                        DiceText.number = "2";
+                        PlayerMove.pecasIndex += 2;
                         break;
                     case "3":
-                        DiceText.number = "3";
+                        PlayerMove.pecasIndex += 3;
                         break;
                     case "4":
-                        DiceText.number = "4";
+                        PlayerMove.pecasIndex += 4;
                         break;
                     case "5":
-                        DiceText.number = "5";
+                        PlayerMove.pecasIndex += 5;
                         break;
                     case "6":
-                        DiceText.number = "6";
+                        PlayerMove.pecasIndex += 6;
                         break;
                 }
             }
